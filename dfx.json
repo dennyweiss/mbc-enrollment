@@ -1,7 +1,8 @@
-bash
-actor {
-  public func greet(name : Text) : async Text {
-    return ("Hello" # name # "!")
-  };
-};
-
+{
+  "canisters": {
+    "first_canister": {
+      "main": "main.mo",
+      "type": "motoko"
+    }
+  }
+}
